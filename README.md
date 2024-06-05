@@ -1,2 +1,1 @@
-# (maihoang-g.github.io)
-welcome to my personal computer science portfolio!
+# [my personal computer science portfolio](maihoang-g.github.io)
