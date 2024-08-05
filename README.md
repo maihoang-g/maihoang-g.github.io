@@ -1,1 +1,1 @@
-# [my personal computer science portfolio](https://maihoang-g.github.io/)
+# [my personal website](https://maihoang-g.github.io/)
