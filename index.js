@@ -12,23 +12,12 @@ $('.menu-img').ready(function() {
       $('.header').slideToggle();
 });
 
-
-$('.conocosafe').on('click', function() {
-  $('.conocosafe-proj').slideToggle();
-  $('.birthday-proj').slideUp();
-  $('.happy-proj').slideUp();
-});
-
-$('.birthday').on('click', function() {
-  $('.conocosafe-proj').slideUp();
-  $('.birthday-proj').slideToggle();
-  $('.happy-proj').slideUp();
-});
-
-$('.happy').on('click', function() {
-  $('.conocosafe-proj').slideUp();
-  $('.birthday-proj').slideUp();
-  $('.happy-proj').slideToggle();
+$(".proj-title").click(function() {
+  // Slide up all other project details
+  $(".proj-details").not($(this).next()).slideUp();
+  
+  // Slide toggle the clicked project's details
+  $(this).next(".proj-details").slideToggle();
 });
 
 async function typeSentence(sentence, eleRef, delay = 100) {
