@@ -68,7 +68,6 @@ body {
         margin-left: 5vw;
         text-align: left;
     }
-
     h1 {
         margin: 0px;
         font-size: 4vw;
@@ -397,7 +396,7 @@ body {
         }
     }
 
-    .conocosafe-proj {
+    .proj-details {
         display: none;
     }
 
@@ -896,7 +895,7 @@ body {
         }
     }
     
-    .conocosafe-proj {
+    .proj-details {
         display: none;
     }
     
