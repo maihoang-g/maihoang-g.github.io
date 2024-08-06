@@ -94,7 +94,7 @@ body {
         margin-left: 30vw;
     }
 
-    .contact {
+    .leadership {
         margin-right: 5vw;
     }
 
@@ -122,8 +122,8 @@ body {
         /* border-color: rgb(27, 107, 255); */
     }
 
-    .contact:hover, .contact:active {
-        border-color: rgb(20, 197, 20);
+    .leadership:hover, .leadership:active {
+        border-color: rgb(142, 60, 203);
     }
 
     a {
@@ -146,6 +146,11 @@ body {
         border: solid;
     }
 
+    .space-top {
+        margin-top: 2vw;
+
+    }
+    
     .heading {
         font-size: 3vw;
     }
@@ -165,6 +170,15 @@ body {
     .exp {
         text-align: center;
     }
+
+    .leadership-details {
+        margin: auto;
+        margin-left: 8vw;
+        margin-right: 9vw;
+        align-self: center;
+        text-align: left;
+    }
+
 
     .align-top {
         vertical-align: top;
@@ -265,6 +279,10 @@ body {
     .green {
         border-color:rgb(20, 197, 20);
     }
+    
+    .yellow {
+        border-color: rgb(251, 206, 71);
+    };
 
     .external {
         font-size: 2vw;
@@ -285,7 +303,7 @@ body {
         height: 40vh;
     }
 
-    .contact-text {
+    .leadership-text {
         margin: auto;
         margin-left: 8vw;
         margin-right: 8vw;
@@ -400,14 +418,6 @@ body {
         display: none;
     }
 
-    .birthday-proj {
-        display: none;
-    }
-
-    .happy-proj {
-        display: none;
-    }
-
     .border-top {
         height: .5vh;
         width: 65vw;
@@ -425,7 +435,7 @@ body {
     .border-bottom {
         height: .5vh;
         width: 65vw;
-        margin-top: 94.5vh;
+        margin-top: 125.5vh;
         margin-bottom: 5vh;
         position:absolute;
         right:0;
@@ -435,7 +445,7 @@ body {
     .border-bottom2 {
         height: .5vh;
         width: 65vw;
-        margin-top: 93.5vh;
+        margin-top: 124.5vh;
         margin-bottom: .5vh;
         position:absolute;
         right:0;
@@ -443,7 +453,7 @@ body {
     }
 
     .leadership-heading {
-        margin-top: 5vh;
+        margin-top: 30vh;
     }
 
     .darkmode-img {
@@ -597,7 +607,7 @@ body {
         transition: all 0.15s ease-out 0s;
     }
     
-    .contact {
+    .leadership {
         margin-right: 5vw;
     }
     
@@ -625,8 +635,8 @@ body {
         /* border-color: rgb(27, 107, 255); */
     }
     
-    .contact:hover, .contact:active {
-        border-color: rgb(20, 197, 20);
+    .leadership:hover, .leadership:active {
+        border-color: rgb(142, 60, 203);
     }
     
     a {
@@ -771,6 +781,10 @@ body {
         border-color:rgb(20, 197, 20);
     }
     
+    .yellow {
+        border-color: rgb(251, 206, 71);
+    };
+
     .external {
         font-size: 2vh;
     }
@@ -790,7 +804,7 @@ body {
         height: 40vh;
     }
     
-    .contact-text {
+    .leadership-text {
         margin: auto;
         margin-left: 8vw;
         margin-right: 8vw;
